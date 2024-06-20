@@ -1,0 +1,112 @@
+li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.songs-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .songs-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .details-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 767px) {
+  .details-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.genre-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+img {
+  margin-right: 10px;
+  height: 150px;
+}
+
+@media (max-width: 767px) {
+  img {
+    height: 150px;
+  }
+}
+
+.name {
+  color: white;
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  .name {
+    font-size: 28px;
+  }
+  .genre {
+    font-size: 15px;
+  }
+}
+.genre {
+  font-size: 28px;
+  color: #3b82f6;
+  margin-top: 0px;
+}
+
+.duration {
+  font-size: 30px;
+  color: white;
+  margin-right: 20px;
+  margin-top: 55px;
+}
+
+.delete-icon {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .duration {
+    margin-top: 0px;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  button {
+    margin-top: 0px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-view {
+    display: none;
+  }
+}
